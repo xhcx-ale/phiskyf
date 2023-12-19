@@ -1,0 +1,44 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 38px;
+}
+.container {
+    margin-top: 40px;
+}
+.logo {
+    margin: 5px 20px 10px 10px;
+}
+.ima {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.card {    
+    width: 90%;
+	   max-width: 1000px;
+	   padding: 40px 20px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+}
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin: auto;
+}
